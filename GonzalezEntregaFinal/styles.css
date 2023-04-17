@@ -19,8 +19,8 @@ body {
 }
 
 .btn-primary:hover {
-  background-color: grey;
-  color: var(--secondary-color);
+  background-color: rgb(181, 181, 181);
+  color: var(--primary-color);
   border: 1px solid var(--primary-color);
   box-shadow: 2px 2px 2px #000;
 }
@@ -54,7 +54,7 @@ body {
   position: absolute;
   top: 10px;
   right: 3px;
-  color: #fff;
+  color: var(--secondary-color);
   font-size: 0.8rem;
   line-height: 20px;
   transform: translateY(-50%);
@@ -66,4 +66,21 @@ body {
   right: 13px;
   color: rgb(210, 197, 197);
   text-shadow: 5px 5px 5px #000;
+}
+
+.buyButton {
+  background-color: #000;
+}
+.buyButton:hover {
+  background-color: var(--secondary-color);
+  color: #000;
+}
+
+.list-group-item {
+  background-color: rgba(52, 49, 49, 0.947);
+  color: var(--secondary-color);
+}
+.cuotasCarrito {
+  background-color: rgba(90, 87, 87, 0.947);
+  color: var(--secondary-color);
 }
