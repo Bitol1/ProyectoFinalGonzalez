@@ -55,6 +55,28 @@ const albums = [
   },
 ];
 
+<<<<<<< HEAD
+albumsContainer.innerHTML = `
+  <div class="container">
+    <div class="row row-cols-1 row-cols-md-2 row-cols-xl-3">
+      ${albums
+        .map(
+          (album) => `
+        <div class="col">
+          <div class="card mx-auto my-4" id="${album.id}">
+            <img src="${album.image}" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">${album.title}</h5>
+              <p class="card-text">${album.description}</p>
+              <a href="#" class="btn btn-primary addButton" onclick="agregarAlCarrito('${album.id}')">Agregar al carrito</a>
+              <span class="price">${album.price}.00 ${album.moneda}</span>
+            </div>
+          </div>
+        </div>
+      `
+        )
+        .join("")}
+=======
 albumsContainer.innerHTML = `
   <div class="container">
     <div class="row row-cols-1 row-cols-md-2 row-cols-xl-3">
@@ -78,3 +100,45 @@ albumsContainer.innerHTML = `
     </div>
   </div>
 `;
+/*
+albumsContainer.innerHTML = `
+  <div class="container">
+    <div class="row row-cols-1 row-cols-md-2 row-cols-xl-3">
+      <div class="col">
+        <div class="card mx-auto my-4" id="randomAccessMemories">
+          <img src="https://i.huffpost.com/gen/1052995/thumbs/o-RANDOM-ACCESS-MEMORIES-570.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Daft Punk - Random Access Memories (2013)</h5>
+            <p class="card-text">Random Access Memories es el cuarto y último álbum de estudio del dúo francés Daft Punk. Se publicó oficialmente en 2013.</p>
+            <a href="#" class="btn btn-primary addButton" onclick="agregarAlCarrito('randomAccessMemories')">Agregar al carrito</a>
+            <span class="price">12.00 USD</span>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mx-auto my-4" id="1989">
+          <img src="https://http2.mlstatic.com/D_NQ_NP_851315-MLA28987346470_122018-W.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Taylor Swift - 1989 (2014)</h5>
+            <p class="card-text">1989 es el quinto álbum de estudio de la cantante y compositora estadounidense Taylor Swift, lanzado en 2014.</p>
+            <a href="#" class="btn btn-primary addButton" onclick="agregarAlCarrito('1989')">Agregar al carrito</a>
+            <span class="price">14.00 USD</span>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mx-auto my-4" id="darkSideOfTheMoon">
+          <img src="https://www.musik-sammler.de/cover/1083000/1082913_1603736151.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Pink Floyd - The Dark Side of the Moon (1973)</h5>
+            <p class="card-text">The Dark Side of the Moon es un álbum conceptual, el octavo de estudio del grupo musical británico de rock progresivo Pink Floyd.</p>
+            <a href="#" class="btn btn-primary addButton" onclick="agregarAlCarrito('darkSideOfTheMoon')">Agregar al carrito</a>
+            <span class="price">8.00 USD</span>
+          </div>
+        </div>
+      </div>
+>>>>>>> a6721fbc2d750fe5e145c3c986228e26bb12aad2
+    </div>
+  </div>
+`;
+*/
