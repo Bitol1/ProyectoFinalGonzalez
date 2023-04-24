@@ -15,6 +15,7 @@ body {
   background-color: var(--grey);
 }
 
+<<<<<<< HEAD
 header {
   height: 5vh;
 }
@@ -27,6 +28,8 @@ footer {
   height: 4vh;
 }
 
+=======
+>>>>>>> c4daf604ac1ed331a9850887453ed0c3d3c862dc
 .title {
   color: var(--white);
 }
@@ -123,6 +126,7 @@ footer {
 .cuotasCarrito {
   background-color: var(--grey-dark);
   color: var(--white);
+<<<<<<< HEAD
 }
 
 .fa {
@@ -143,4 +147,6 @@ footer {
     left: 0;
     bottom: 0;
   }
+=======
+>>>>>>> c4daf604ac1ed331a9850887453ed0c3d3c862dc
 }
