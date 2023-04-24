@@ -102,13 +102,19 @@ async function mostrarElementosDelCarrito() {
                         ${
                           cuota.cuotas == 1
                             ? `
-                        <span><strong>${
+                        <input type="radio" name="cuotas" value="${
+                          cuota.cuotas
+                        }" checked>
+                        <span class="list-description"><strong>${
                           cuota.cuotas
                         }</strong> cuota de <strong>$${parseFloat(
                                 cuota.totalPorCuota.toFixed(2)
                               )} ARS</strong></span>`
                             : `
-                        <span><strong>${
+                        <input type="radio" name="cuotas" value="${
+                          cuota.cuotas
+                        }">
+                        <span class="list-description"><strong>${
                           cuota.cuotas
                         }</strong> cuotas de <strong>$${parseFloat(
                                 cuota.totalPorCuota.toFixed(2)
