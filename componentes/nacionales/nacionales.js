@@ -34,6 +34,10 @@ const albums = [
     image:
       "https://es.rollingstone.com/wp-content/uploads/2023/02/flopa-manza-minimal-vinilo.jpg",
   },
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 24f8860d6aae20f9a48786013ae85cff43ddda3d
   {
     id: "aguaArdiente",
     title: "Los Espiritus - Agua Ardiente (2017)",
@@ -64,6 +68,11 @@ const albums = [
     image:
       "https://d22fxaf9t8d39k.cloudfront.net/dfec087c6431000a30fcf10f61c40860d361066b4b26460d52dd57d572774dec84231.jpeg",
   },
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> c4daf604ac1ed331a9850887453ed0c3d3c862dc
+>>>>>>> 24f8860d6aae20f9a48786013ae85cff43ddda3d
 ];
 
 albumsContainer.innerHTML = `

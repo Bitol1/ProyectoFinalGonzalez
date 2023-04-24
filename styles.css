@@ -15,6 +15,10 @@ body {
   background-color: var(--grey);
 }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 24f8860d6aae20f9a48786013ae85cff43ddda3d
 header {
   height: 5vh;
 }
@@ -27,6 +31,11 @@ footer {
   height: 4vh;
 }
 
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> c4daf604ac1ed331a9850887453ed0c3d3c862dc
+>>>>>>> 24f8860d6aae20f9a48786013ae85cff43ddda3d
 .title {
   color: var(--white);
 }
@@ -123,6 +132,10 @@ footer {
 .cuotasCarrito {
   background-color: var(--grey-dark);
   color: var(--white);
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 24f8860d6aae20f9a48786013ae85cff43ddda3d
 }
 
 .fa {
@@ -143,4 +156,9 @@ footer {
     left: 0;
     bottom: 0;
   }
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> c4daf604ac1ed331a9850887453ed0c3d3c862dc
+>>>>>>> 24f8860d6aae20f9a48786013ae85cff43ddda3d
 }
